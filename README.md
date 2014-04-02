@@ -29,6 +29,24 @@ app.get('/testRoute', function(req, res){
 });
 ```
 
+***Example of a failing request***
+```
+Example Request: 
+GET: http://localhost:3000/testRoute
+
+Example Response
+400: Expected query.name to exist
+```
+
+***Example of a passing request***
+```
+Example Request: 
+GET: http://localhost:3000/testRoute?name=brandon
+
+Example Response
+200: Hello brandon!
+```
+
 ### Validators
 ```javascript
 req.requires.property('auth_provider').toExist();
