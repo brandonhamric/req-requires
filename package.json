@@ -1,6 +1,6 @@
 {
   "name": "req-requires",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Add assertions to ExpressJS middleware",
   "main": "./lib/req-requires.js",
   "scripts": {
@@ -15,8 +15,6 @@
     "validation",
     "http",
     "validate",
-    "sanitization",
-    "sanitize",
     "expressjs"
   ],
   "author": "Brandon Hamric",
