@@ -1,0 +1,28 @@
+{
+  "name": "req-requires",
+  "version": "0.0.1",
+  "description": "Add assertions to ExpressJS middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brandonhamric/req-requires.git"
+  },
+  "keywords": [
+    "validator",
+    "validation",
+    "http",
+    "validate",
+    "sanitization",
+    "sanitize",
+    "expressjs"
+  ],
+  "author": "Brandon Hamric",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brandonhamric/req-requires/issues"
+  },
+  "homepage": "https://github.com/brandonhamric/req-requires"
+}
