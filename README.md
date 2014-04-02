@@ -1,4 +1,4 @@
-**req-requires.js** is a library that is used to validate certain properties on the request object in expressjs route handlers.
+**req-requires.js** is a library that is used to validate properties on the request object in expressjs route handlers.
 
 ![tests][mocha]
 
@@ -15,7 +15,7 @@ var requires = require('req-requires');
 //load the middleware
 app.use(requires.setup);
 
-//IMPORTANT: app.router must called before requires.error
+//IMPORTANT: app.router must be called before requires.error
 app.use(app.router);
 app.use(requires.error);
 ```
@@ -23,14 +23,17 @@ app.use(requires.error);
 ### Usage
 
 This will make sure the /testRoute handler has req.query.name
+```javascript
 app.get('/testRoute', function(req, res){
   req.requires.property('query.name').toExist();
 
   res.send('Hello '+req.query.name+'!');
 });
+```
 
 ### Validators
-
+```javascript
 req.requires.property('auth_provider').toExist();
 req.requires.property('body.email').toExist();
 req.requires.property('params.id').toMatch(/^[0-9a-fA-F]{24}$/);
+```
