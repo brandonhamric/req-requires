@@ -1,7 +1,5 @@
 **req-requires.js** is a library that is used to validate properties on the request object in expressjs route handlers.
 
-![tests][mocha]
-
 ## Installation
 
 Install req-requires with `npm install req-requires`
