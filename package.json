@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/brandonhamric/req-requires/issues"
   },
-  "homepage": "https://github.com/brandonhamric/req-requires"
+  "homepage": "https://github.com/brandonhamric/req-requires",
+  "devDependencies": {
+    "should": "~3.2.0"
+  }
 }
