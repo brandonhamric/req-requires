@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "description": "using multiple request handlers with req-requires",
+  "scripts": {
+    "run": "node app.js"
+  },
+  "author": "Brandon Hamric",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~3.5.1"
+  }
+}
