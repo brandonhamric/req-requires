@@ -1,8 +1,8 @@
 {
   "name": "req-requires",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Add assertions to ExpressJS middleware",
-  "main": "/lib/req-requires.js",
+  "main": "./lib/req-requires.js",
   "scripts": {
     "test": "mocha"
   },
