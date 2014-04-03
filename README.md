@@ -49,7 +49,10 @@ Example Response
 
 ### Validators
 ```javascript
-req.requires.property('auth_provider').toExist();
-req.requires.property('body.email').toExist();
-req.requires.property('params.id').toMatch(/^[0-9a-fA-F]{24}$/);
+
+toExist - the given property must exist in the request object
+toBeType - the property must match the given type
+toMatch - the property matches the given regex
+toBeIn - the property is a member of the given array
+
 ```
