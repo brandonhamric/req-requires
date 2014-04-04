@@ -1,5 +1,7 @@
 **req-requires.js** makes it easy to make sure the properties in your expressjs request are valid.
 
+[![Build Status](https://travis-ci.org/brandonhamric/req-requires.svg?branch=master)](https://travis-ci.org/brandonhamric/req-requires)
+
 ## Installation
 
 Install req-requires with `npm install req-requires`
