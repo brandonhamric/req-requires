@@ -6,7 +6,7 @@ Install req-requires with `npm install req-requires`
 
 ## Usage
 
-### app.js
+### Setup
 The following needs to be placed in the app.js file
 ```javascript
 var requires = require('req-requires');
@@ -18,7 +18,7 @@ app.use(app.router);
 app.use(requires.error);
 ```
 
-### Usage
+### Basic Example
 
 This will make sure the /testRoute handler has req.query.name
 ```javascript
@@ -46,7 +46,7 @@ GET: http://localhost:3000/testRoute?name=brandon
 Example Response
 200: Hello brandon!
 ```
-### Examples
+### More Examples
 *   [Requiring a single property](https://github.com/brandonhamric/req-requires/blob/master/examples/basic/app.js)
 *   [Requiring properties set from other handlers](https://github.com/brandonhamric/req-requires/blob/master/examples/multipleHandlers/app.js)
 *   [Chaining requirements](https://github.com/brandonhamric/req-requires/blob/master/examples/chaining/app.js)
