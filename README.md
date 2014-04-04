@@ -1,4 +1,4 @@
-**req-requires.js** is a library that is used to validate properties on the request object in expressjs route handlers.
+**req-requires.js** makes it easy to make sure the properties in your expressjs request are valid.
 
 ## Installation
 
