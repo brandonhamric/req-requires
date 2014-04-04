@@ -1,6 +1,6 @@
 {
   "name": "req-requires",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Validate properties in expressjs requests",
   "main": "./lib/req-requires.js",
   "scripts": {
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/brandonhamric/req-requires",
   "devDependencies": {
-    "should": "~3.2.0"
+    "should": "~3.2.0",
+    "mocha": "~1.18.2"
   }
 }
