@@ -1,6 +1,6 @@
 {
   "name": "req-requires",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Add assertions to ExpressJS middleware",
   "main": "./lib/req-requires.js",
   "scripts": {
@@ -13,6 +13,7 @@
   "keywords": [
     "validator",
     "validation",
+    "assert",
     "http",
     "validate",
     "expressjs"
