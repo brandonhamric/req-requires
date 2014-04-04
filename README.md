@@ -31,7 +31,7 @@ app.get('/testRoute', function(req, res){
 
 ***Example of a failing request***
 ```
-Example Request: 
+Example Request:
 GET: http://localhost:3000/testRoute
 
 Example Response
@@ -40,12 +40,17 @@ Example Response
 
 ***Example of a passing request***
 ```
-Example Request: 
+Example Request:
 GET: http://localhost:3000/testRoute?name=brandon
 
 Example Response
 200: Hello brandon!
 ```
+### Examples
+*   [Requiring a single property](https://github.com/brandonhamric/req-requires/blob/master/examples/basic/app.js)
+*   [Requiring properties set from other handlers](https://github.com/brandonhamric/req-requires/blob/master/examples/multipleHandlers/app.js)
+*   [Chaining requirements](https://github.com/brandonhamric/req-requires/blob/master/examples/chaining/app.js)
+*   [Returning a custom error when a parameter requirement fails](https://github.com/brandonhamric/req-requires/blob/master/examples/customErrorHandler/app.js)
 
 ### Validators
 ```javascript
